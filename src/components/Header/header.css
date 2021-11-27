@@ -1,0 +1,14 @@
+.header{
+  grid-area:header;
+  background: #35a5da;
+  color: black;
+  height: 12vh;
+  width: 100vw;
+  display:flex;
+  align-items:center;
+  font-size:2.5vh;
+}
+a{
+  font-weight:normal;
+  padding-left:5vw;
+}

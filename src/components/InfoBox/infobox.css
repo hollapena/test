@@ -1,0 +1,10 @@
+.infobox{
+  grid-area:infobox;
+  height:53vh;
+  width:80vw;
+  background-color:white;
+  margin-right:10vw;
+  margin-left:10vw;
+  margin-top:-2vh;
+  margin-bottom:-15vh;
+}

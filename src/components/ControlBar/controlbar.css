@@ -1,0 +1,22 @@
+.controlbar{
+  grid-area:controlbar;
+  width:80vw;
+  height:7vh;
+  background-color:black;
+  align-self:start;
+  display:inline;
+  color:white;
+  display:flex;
+  justify-content:space-between;
+}
+button{
+  background-color: #35a5da;
+  color:white;
+  height:4.5vh;
+  width:8.5vw;
+  min-width:fit-content;
+  border-radius:15px;
+  border:none;
+  font-size:2vh;
+  margin:10px;
+}

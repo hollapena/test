@@ -1,0 +1,13 @@
+.App {
+  background-color:black;
+  background-size:cover;
+  width:100vw;
+  height:100vh;
+  display:grid;
+  grid-template-areas: 
+  "header"
+  "infobox"
+  "controlbar";
+  justify-items:center;
+  
+}
