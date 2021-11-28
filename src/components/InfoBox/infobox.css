@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Roboto&family=Source+Sans+Pro&display=swap');
+
 .infobox{
   grid-area:infobox;
   height:53vh;
@@ -7,4 +9,36 @@
   margin-left:10vw;
   margin-top:-2vh;
   margin-bottom:-15vh;
+  display:flex;
+  flex-direction:column;
+  padding:0px 10px 0px 10px;
+  font-family:'Source Sans Pro';
+}
+.number{
+  margin-top:0px;
+  margin-bottom:0px;
+  align-self: flex-end;
+  height:fit-content;
+  
+}
+.infoBoxContents{
+  align-self:center;
+  width:70vw;
+}
+.name{
+  border-bottom: 2.75px solid #35a5da;
+  width:fit-content;
+  margin-top:0px;
+}
+.personalInfo{
+  display:flex;
+  flex-direction: column;
+  line-height: 0px;
+} 
+.movieHeader{
+  margin-bottom:-10px;
+}
+.movieList{
+  display:flex;
+  flex-direction: column;
 }

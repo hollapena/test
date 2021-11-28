@@ -6,13 +6,13 @@ export default function ControlBar (props) {
 
   return(
     <div className="controlbar">
-      <h3>{prevBtn}</h3>
+      <button className="navbtn" onClick={() => props.displayCard('minus')}><strong>{prevBtn}</strong></button>
       <div>
       <button><strong>Edit</strong></button>
       <button><strong>Delete</strong></button>
       <button><strong>New</strong></button>
       </div>
-      <h3>{nextBtn}</h3>
+      <button className="navbtn" onClick={() => props.displayCard('plus')}><strong>{nextBtn}</strong></button>
     </div>
   )
 }
