@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Qahiri&family=Roboto&family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
 
 .infobox{
   grid-area:infobox;
@@ -12,14 +12,16 @@
   display:flex;
   flex-direction:column;
   padding:0px 10px 0px 10px;
-  font-family:'Source Sans Pro';
+  font-family:'Open Sans', sans-serif;
+  font-weight:400;
 }
 .number{
   margin-top:0px;
   margin-bottom:0px;
   align-self: flex-end;
   height:fit-content;
-  
+  font-size:29px;
+  font-weight:800;
 }
 .infoBoxContents{
   align-self:center;
@@ -29,16 +31,37 @@
   border-bottom: 2.75px solid #35a5da;
   width:fit-content;
   margin-top:0px;
+  font-size:28px;
+  font-weight:800;
 }
 .personalInfo{
   display:flex;
   flex-direction: column;
+  justify-content:space-around;
+  height:15vh;
   line-height: 0px;
+  font-size:18px;
+  font-weight:600;
 } 
+strong{
+  font-weight:800;
+}
 .movieHeader{
   margin-bottom:-10px;
+  font-size:18px;
+  font-weight:800;
+  line-height:15px;
+}
+p{
+ margin:0%;
 }
 .movieList{
   display:flex;
   flex-direction: column;
+  font-size:18px;
+  font-weight:600;
+  line-height:25px;
+}
+ol{
+  padding-left:70px;
 }
